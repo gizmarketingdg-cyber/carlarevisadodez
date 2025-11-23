@@ -1,0 +1,2869 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendário Editorial Estratégico - Carla Romanhi | Nov-Jan 2026</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        
+        h1 {
+            color: #667eea;
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+        
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 20px;
+            font-size: 1.2em;
+        }
+
+        .estrategia {
+            background: linear-gradient(135deg, #ffeaa7, #fdcb6e);
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .estrategia h2 {
+            color: #764ba2;
+            margin-bottom: 10px;
+        }
+
+        .estrategia p {
+            color: #333;
+            font-size: 1.1em;
+        }
+
+        .comercial {
+            background: linear-gradient(135deg, #ff6b6b 0%, #ee5a6f 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+
+        .comercial h2 {
+            color: white;
+            margin-bottom: 15px;
+            font-size: 1.8em;
+        }
+
+        .comercial p {
+            font-size: 1.1em;
+            margin: 10px 0;
+            line-height: 1.8;
+        }
+
+        .comercial strong {
+            font-size: 1.2em;
+        }
+
+        .link-box {
+            background: #fff;
+            color: #ff6b6b;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        
+        .week-divider {
+            text-align: center;
+            color: #764ba2;
+            font-size: 1.5em;
+            font-weight: bold;
+            margin: 40px 0 30px 0;
+            padding: 15px;
+            background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+            border-radius: 10px;
+        }
+
+        .whatsapp-section {
+            background: #25D366;
+            color: white;
+            padding: 20px;
+            border-radius: 15px;
+            margin: 20px 0;
+        }
+
+        .whatsapp-section h3 {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .stories-section {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 15px;
+            margin: 20px 0;
+        }
+
+        .stories-section h3 {
+            margin-bottom: 15px;
+        }
+
+        .story-item {
+            background: rgba(255,255,255,0.2);
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        
+        .post {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 15px;
+            border-left: 6px solid #667eea;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .post.reels {
+            border-left-color: #ff6b6b;
+            background: linear-gradient(135deg, #fff0f0 0%, #ffd6d6 100%);
+        }
+
+        .post.educacional {
+            border-left-color: #00d2ff;
+            background: linear-gradient(135deg, #e0f7ff 0%, #b3e5fc 100%);
+        }
+
+        .post.especial {
+            border-left-color: #ffd700;
+            background: linear-gradient(135deg, #fff9e6 0%, #ffe8a3 100%);
+        }
+        
+        .post:hover {
+            transform: translateX(10px);
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+        }
+        
+        .post-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            flex-wrap: wrap;
+        }
+        
+        .date {
+            background: #667eea;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9em;
+        }
+        
+        .format {
+            background: #764ba2;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.85em;
+        }
+
+        .format.reels-tag {
+            background: #ff6b6b;
+        }
+
+        .format.educacional-tag {
+            background: #00d2ff;
+        }
+        
+        .post-title {
+            color: #333;
+            font-size: 1.3em;
+            font-weight: bold;
+            margin: 15px 0;
+        }
+        
+        .post-content {
+            color: #555;
+            margin: 15px 0;
+            white-space: pre-line;
+        }
+        
+        .cta {
+            background: #ff6b6b;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 25px;
+            display: inline-block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        .cta-link {
+            background: #667eea;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 30px;
+            display: inline-block;
+            margin-top: 15px;
+            font-weight: bold;
+            font-size: 1.1em;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .cta-link:hover {
+            background: #5568d3;
+            transform: scale(1.05);
+        }
+        
+        .hashtags {
+            color: #667eea;
+            font-style: italic;
+            margin-top: 15px;
+            font-size: 0.9em;
+        }
+        
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            .container {
+                box-shadow: none;
+            }
+            .post:hover {
+                transform: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>✨ Calendário Editorial Estratégico - Carla Romanhi ✨</h1>
+        <p class="subtitle">23 de Novembro 2025 - 02 de Janeiro 2026</p>
+
+        <div class="estrategia">
+            <h2>📊 Estratégia de Conteúdo</h2>
+            <p><strong>4 posts por semana</strong> | <strong>60% Reels</strong> (14 reels) | <strong>40% Outros formatos</strong> (10 posts)</p>
+            <p><strong>80% Vendas + 20% Educacional</strong></p>
+            <p><strong>+ Mensagens WhatsApp semanais (intensificadas na semana do workshop)</strong></p>
+            <p><strong>+ 4 Stories interativos por semana</strong></p>
+        </div>
+
+        <div class="comercial">
+            <h2>🎯 ESTRATÉGIA DE VENDAS</h2>
+            
+            <p><strong>📅 FASE 1 (23/11 a 14/12):</strong> Venda do WORKSHOP</p>
+            <p style="margin-left: 20px;">
+                → <strong>Workshop "Planejamento com Propósito"</strong><br>
+                → 14 de dezembro | 2 horas<br>
+                → Low ticket (R$ 47)<br>
+                → <strong>INSCRIÇÕES JÁ ABERTAS - Link na bio</strong><br>
+                → No workshop, será revelada a Bússola
+            </p>
+            
+            <div class="link-box">
+                🔗 LINK WORKSHOP (Bio): <a href="https://pay.kiwify.com.br/kr8c27I" target="_blank" style="color: #ff6b6b; text-decoration: underline;">https://pay.kiwify.com.br/kr8c27I</a>
+            </div>
+            
+            <p style="margin-top: 15px;"><strong>🧭 FASE 2 (15/12 a 02/01):</strong> Posicionamento da BÚSSOLA</p>
+            <p style="margin-left: 20px;">
+                → <strong>Bússola - Clube Anual de Transformação Integral</strong><br>
+                → 12 meses (jan-dez 2026)<br>
+                → Apenas 12 vagas<br>
+                → R$ 1.497 à vista ou 12x R$ 154,82<br>
+                → 2 encontros/mês (1 online segunda 6h + 1 presencial sábado)<br>
+                → Vendida principalmente no workshop
+            </p>
+
+            <div class="link-box">
+                🔗 LINK BÚSSOLA (Pós-workshop): <a href="https://pay.kiwify.com.br/7aq7Uku" target="_blank" style="color: #ff6b6b; text-decoration: underline;">https://pay.kiwify.com.br/7aq7Uku</a>
+            </div>
+
+            <p style="margin-top: 15px; padding: 15px; background: rgba(255,255,255,0.2); border-radius: 5px;">
+                <strong>💡 ESTRATÉGIA:</strong> Workshop é o funil de entrada. Bússola é revelada ao vivo no workshop. Posts pós-14/12 trabalham posicionamento e captam quem não participou.
+            </p>
+        </div>
+
+        <!-- ========================================
+             SEMANA 1: 23-29/11
+        ======================================== -->
+
+        <div class="week-divider">🧭 SEMANA 1 (23-29/11): Dor + Desejo + Transformação</div>
+
+        <div class="whatsapp-section">
+            <h3>📱 MENSAGEM WHATSAPP DA SEMANA</h3>
+            <p><strong>Frequência:</strong> 1 mensagem no meio da semana</p>
+            <p style="margin-top: 10px; line-height: 1.8;">
+Oi, [nome]! 💜
+
+Posso te fazer uma pergunta bem direta?
+
+Quantas vezes você já começou o ano nova com aquela empolgação toda... só pra chegar em março e perceber que tá fazendo exatamente a mesma coisa de sempre?
+
+Não é culpa sua. É que ninguém te ensinou a REALMENTE planejar.
+
+Essa semana vou compartilhar coisas que vão mudar completamente a forma como você enxerga planejamento.
+
+E tem uma novidade chegando dia 14... 👀
+
+Fica de olho! 🎯
+
+Carla
+            </p>
+        </div>
+
+        <div class="stories-section">
+            <h3>📸 STORIES INTERATIVOS DA SEMANA (4)</h3>
+            
+            <div class="story-item">
+                <strong>STORY 1 - Enquete (Dor):</strong><br>
+                "Você costuma planejar o ano novo?"<br>
+                □ Sim, mas abandono em semanas<br>
+                □ Não, nem tento mais
+            </div>
+            
+            <div class="story-item">
+                <strong>STORY 2 - Caixinha de Perguntas:</strong><br>
+                "Me conta: qual foi sua maior frustração com planejamentos que não deram certo?"<br>
+                [Coletar dores reais para usar em conteúdos]
+            </div>
+            
+            <div class="story-item">
+                <strong>STORY 3 - Teste Rápido:</strong><br>
+                "Teste: Por que seus planejamentos não funcionam?"<br>
+                [3 perguntas simples revelando padrões limitantes]
+            </div>
+            
+            <div class="story-item">
+                <strong>STORY 4 - Teaser:</strong><br>
+                "Dia 14/12 tem algo GRANDE acontecendo..."<br>
+                "Workshop Planejamento com Propósito"<br>
+                "Link na bio! 👀"
+            </div>
+        </div>
+
+        <div class="post reels">
+            <div class="post-header">
+                <span class="date">24/11 - Domingo</span>
+                <span class="format reels-tag">REELS #1</span>
+            </div>
+            <div class="post-title">Por Que Você Sempre Desiste dos Seus Planos? 💔</div>
+            <div class="post-content">ROTEIRO REELS (35-40 segundos):
+
+[GANCHO - 3s]
+Carla olhando pra câmera, séria
+Texto: "Você vai desistir de novo em 2026?"
+
+[DOR - 20s]
+Sequência rápida de situações:
+
+"Janeiro: ANIMADA fazendo lista de metas"
+"Fevereiro: Já pulou academia 3x essa semana"
+"Março: 'Ah, esse ano não é meu ano mesmo'"
+"Dezembro: 'Ano que vem EU vou conseguir'"
+
+[Pausa]
+Texto: "E o ciclo se repete..."
+
+[VIRADA - 10s]
+Carla se aproxima da câmera:
+"Não é falta de disciplina.
+Não é preguiça.
+É que NINGUÉM te ensinou
+a planejar do jeito CERTO."
+
+[CTA - 7s]
+"14 de Dezembro - Workshop"
+"Link na bio 🎯"
+
+ÁUDIO: Música que evoca frustração → esperança
+
+LEGENDA:
+Deixa eu adivinhar...
+
+Você já:
+❌ Fez aquela lista linda no dia 1º de janeiro
+❌ Comprou o planner mais caro da papelaria
+❌ Jurou que "esse ano vai ser diferente"
+❌ Abandonou tudo em fevereiro
+
+E o pior? Você se culpou. Achou que o problema era VOCÊ.
+
+"Eu não tenho disciplina"
+"Eu não sou focada"
+"Eu não consigo terminar nada"
+
+Mas e se eu te disser que o problema NÃO é você?
+
+O problema é que você está usando uma forma de planejar que:
+
+🚫 Não considera quem você REALMENTE é
+🚫 Ignora seus valores e propósitos de vida
+🚫 Cria metas baseadas em pressão externa
+🚫 Não tem NENHUMA conexão com o que Deus planejou pra você
+
+No dia 14 de dezembro, eu vou te ensinar EXATAMENTE o método que FUNCIONA.
+
+Workshop "Planejamento com Propósito - Transformando sua Visão em Resultados Reais"
+
+🗓️ 14 de Dezembro | Sábado
+⏰ 2 horas
+💰 R$ 47
+
+🔗 Link na bio pra garantir sua vaga!
+
+Comenta "EU QUERO" se você tá pronta pra fazer diferente em 2026! 💜</div>
+            <div class="hashtags">#Planejamento2026 #MetasQueFuncionam #TransformacaoReal #VidaComProposito #Workshop</div>
+        </div>
+
+        <div class="post educacional">
+            <div class="post-header">
+                <span class="date">26/11 - Terça</span>
+                <span class="format educacional-tag">EDUCACIONAL</span>
+            </div>
+            <div class="post-title">3 Verdades Sobre Propósito que Ninguém Te Conta 🎯</div>
+            <div class="post-content">Eu passei ANOS acreditando em mentiras sobre propósito.
+
+E essas mentiras me mantiveram presa, frustrada, vivendo uma vida pequena demais pro chamado que Deus tinha pra mim.
+
+Então hoje eu preciso te contar 3 VERDADES que mudaram completamente minha vida:
+
+---
+
+**VERDADE #1: Propósito não é algo que você "encontra"**
+
+Propósito não está perdido esperando você achar.
+
+Ele já está dentro de você. SEMPRE esteve.
+
+Deus te criou COM propósito. Você nasceu COM ele.
+
+O que você precisa fazer não é "encontrar".
+
+É DESCOBRIR. É DESENTERRAR.
+
+É tirar todas as camadas de expectativas externas, de medos, de "deveria ser assim" que cobriram seu propósito original.
+
+---
+
+**VERDADE #2: Propósito NÃO é só sobre carreira**
+
+Essa é a maior mentira que vendem pra gente.
+
+"Seu propósito é ser médica"
+"Seu propósito é empreender"
+"Seu propósito é ser mãe"
+
+NÃO.
+
+Propósito é sobre QUEM VOCÊ É, não sobre O QUE VOCÊ FAZ.
+
+É sobre como você AMA.
+Como você SERVE.
+Como você TRANSFORMA ao seu redor.
+
+Você pode ter 10 profissões diferentes na vida e TODAS serem manifestações do seu propósito.
+
+Porque propósito não é função. É ESSÊNCIA.
+
+---
+
+**VERDADE #3: Você não vive seu propósito sozinha**
+
+Deus não te chamou pra uma jornada solitária.
+
+Ele te chamou pra COMUNIDADE.
+Pra CONEXÃO.
+Pra viver seu propósito EM RELAÇÃO com outras pessoas.
+
+Se você tá tentando descobrir e viver seu propósito sozinha...
+
+Você tá fazendo do jeito mais difícil possível.
+
+E provavelmente por isso tá travada.
+
+Porque propósito floresce em COMUNIDADE, não em isolamento.
+
+---
+
+Essas três verdades transformaram completamente minha jornada.
+
+E transformaram a jornada de centenas de mulheres que passaram pelos meus processos.
+
+Quando você entende isso...
+
+Tudo muda.
+
+Você para de "buscar" e começa a REVELAR.
+Você para de dividir sua vida em caixinhas e começa a viver INTEGRALMENTE.
+Você para de tentar sozinha e começa a pedir ajuda.
+
+E aí... a mágica acontece. 💜
+
+Qual dessas verdades mais impactou você?
+
+Comenta o número aqui embaixo! 👇</div>
+            <div class="hashtags">#Proposito #VerdadesSobreProposito #ChamadoDivino #VidaComSentido #Autoconhecimento</div>
+        </div>
+
+        <div class="post reels">
+            <div class="post-header">
+                <span class="date">27/11 - Quarta</span>
+                <span class="format reels-tag">REELS #2</span>
+            </div>
+            <div class="post-title">O Que Separa Quem Desiste de Quem Conquista? 🎯</div>
+            <div class="post-content">ROTEIRO REELS (35-45 segundos):
+
+[GANCHO - 3s]
+Carla com duas listas nas mãos
+Texto: "Mesma meta. Resultados opostos. Por quê?"
+
+[SITUAÇÃO - 18s]
+Split screen ou transições:
+
+PESSOA A:
+"Eu quero emagrecer!"
+• Compra academia cara
+• Começa dieta da moda
+• Desiste em 3 semanas
+
+PESSOA B:
+"Eu quero honrar meu corpo"
+• Entende seu por quê
+• Cria rotina sustentável
+• Transforma a vida inteira
+
+[REVELAÇÃO - 15s]
+Carla séria, aproximando da câmera:
+
+"A diferença?
+
+PESSOA A tem META.
+PESSOA B tem PROPÓSITO.
+
+Meta sem propósito é obrigação.
+Propósito com estratégia é transformação."
+
+[CTA - 9s]
+"14 de dezembro
+Vou te ensinar exatamente isso
+
+Planejamento com Propósito
+Link na bio 🎯"
+
+ÁUDIO: Beat inspirador crescente
+
+LEGENDA:
+Sabe por que você desiste?
+
+Não é falta de vontade.
+Não é preguiça.
+Não é "falta de disciplina".
+
+É porque você tem METAS sem PROPÓSITO.
+
+E meta sem propósito é:
+• Obrigação que cansa
+• Pressão que paralisa
+• Cobrança que frustra
+
+Mas quando você descobre SEU propósito?
+
+Quando você entende POR QUE aquilo importa?
+
+Quando você alinha suas metas com o que Deus planejou pra você?
+
+AÍ sim a coisa muda.
+
+No Workshop "Planejamento com Propósito" (14/12), você vai:
+
+🎯 Descobrir seu propósito REAL
+💜 Mapear seus valores verdadeiros
+✨ Criar um plano que FUNCIONA
+🙏 Alinhar tudo com o plano divino
+
+Não é motivação barata.
+É TRANSFORMAÇÃO estruturada.
+
+🗓️ 14 de Dezembro | 2 horas
+💰 R$ 47
+
+🔗 Link na bio
+
+Comenta "EU VOU" se você tá pronta! 💜</div>
+            <div class="hashtags">#PropositoDeVida #MetasComProposito #Planejamento2026 #TransformacaoReal #Workshop</div>
+        </div>
+
+        <div class="post">
+            <div class="post-header">
+                <span class="date">29/11 - Sexta</span>
+                <span class="format">POST ÚNICO - CONVITE</span>
+            </div>
+            <div class="post-title">14 de Dezembro: O Dia que Pode Mudar Seu 2026 Inteiro 🎯💜</div>
+            <div class="post-content">Esse post é um CONVITE.
+
+Não é um convite qualquer. É um convite pra você fazer uma escolha.
+
+Uma escolha que pode mudar completamente como você vive 2026.
+
+---
+
+No dia 14 de dezembro (daqui a 2 semanas), às [horário], eu vou conduzir um workshop que eu preparei com MUITO carinho:
+
+**PLANEJAMENTO COM PROPÓSITO**
+Transformando sua Visão em Resultados Reais
+
+2 horas ao vivo comigo.
+Online, no conforto da sua casa.
+Com workbook completo pra você trabalhar durante o encontro.
+
+---
+
+**Mas esse NÃO é mais um workshop de "anota suas metas e torce pro melhor".**
+
+É um PROCESSO onde você vai:
+
+✨ **Descobrir seu propósito verdadeiro**
+(Não o que os outros esperam. O que DEUS planejou.)
+
+💜 **Mapear seus valores não-negociáveis**
+(Aquilo que você não abre mão. Que define quem você é.)
+
+🎯 **Criar seu plano estratégico de 2026**
+(Não 47 metas aleatórias. Um PLANO coeso e alcançável.)
+
+🙏 **Buscar direção divina**
+(Porque planejamento sem Deus é só ansiedade.)
+
+---
+
+**O que está incluído:**
+
+📓 Workbook completo
+⏰ 2 horas de workshop ao vivo
+💜 Processo guiado passo a passo
+🙏 Momento de oração e busca de direção
+📹 Replay por 7 dias
+🎁 Template de acompanhamento trimestral
+
+**Investimento:** R$ 47
+
+---
+
+**Para quem é:**
+
+✅ Você que tá CANSADA de planejar e desistir
+✅ Você que quer alinhar seus planos com propósito divino
+✅ Você que precisa de um MÉTODO que funcione
+✅ Você que quer 2026 verdadeiramente DIFERENTE
+
+**Para quem NÃO é:**
+
+❌ Quem quer "motivação" sem trabalho real
+❌ Quem não vai aplicar o que aprender
+❌ Quem quer copiar metas dos outros
+
+---
+
+**E tem mais...**
+
+No FINAL do workshop, eu vou fazer um anúncio especial.
+
+Algo que eu preparei pra quem quer ir MUITO além do planejamento.
+
+Uma oportunidade que só estará disponível pra quem estiver presente.
+
+Mas isso... é surpresa. 😉
+
+---
+
+🔗 **LINK NA BIO PRA GARANTIR SUA VAGA**
+
+Ou me chama no direct se tiver dúvidas!
+
+---
+
+2026 pode ser só mais um ano...
+
+Ou pode ser O ano da sua transformação.
+
+A escolha é sua.
+
+Nos vemos dia 14? 💜🎯</div>
+            <div class="cta">🔗 CLICA NO LINK DA BIO E GARANTE SUA VAGA!</div>
+            <div class="hashtags">#Workshop14Dezembro #PlanejamentoComProposito #Inscricoes Abertas #Transformacao2026 #VamosJuntas</div>
+        </div>
+
+        <!-- ========================================
+             SEMANA 2: 01-07/12 - INTENSIFICAÇÃO
+        ======================================== -->
+
+        <div class="week-divider">💫 SEMANA 2 (01-07/12): Quebra de Objeções + Autoridade</div>
+
+        <div class="whatsapp-section">
+            <h3>📱 MENSAGENS WHATSAPP DA SEMANA</h3>
+            <p><strong>Frequência:</strong> 2 mensagens (terça e sábado)</p>
+            
+            <p style="margin-top: 15px; background: rgba(255,255,255,0.2); padding: 10px; border-radius: 5px;"><strong>MENSAGEM 1 (Terça):</strong></p>
+            <p style="margin-top: 10px; line-height: 1.8;">
+Oi, [nome]! 💜
+
+As vagas pro workshop do dia 14 estão enchendo mais rápido do que eu esperava!
+
+E eu tô TÃO feliz porque significa que tem muita mulher pronta pra fazer 2026 diferente de verdade.
+
+Você já garantiu sua vaga?
+
+Porque olha... nessas 2 horas você vai:
+
+✅ Descobrir seu propósito REAL
+✅ Criar um plano que FUNCIONA
+✅ Alinhar tudo com Deus
+✅ Sair com seu 2026 PLANEJADO
+
+R$ 47 - Link na bio: https://pay.kiwify.com.br/kr8c27I
+
+Te espero lá! 🎯💜
+
+Carla
+            </p>
+
+            <p style="margin-top: 15px; background: rgba(255,255,255,0.2); padding: 10px; border-radius: 5px;"><strong>MENSAGEM 2 (Sábado):</strong></p>
+            <p style="margin-top: 10px; line-height: 1.8;">
+[Nome], uma pergunta sincera:
+
+Se você pudesse redesenhar 2026 do zero...
+
+Mantendo apenas o que é verdadeiramente SEU - seus valores, sonhos, desejos autênticos...
+
+Como ele seria?
+
+Diferente do que você vem planejando?
+
+No sábado que vem (14/12), vou te guiar nesse processo.
+
+Workshop Planejamento com Propósito
+R$ 47 - Link na bio
+
+Vamos juntas? 💜🧭
+
+Link: https://pay.kiwify.com.br/kr8c27I
+
+Carla
+            </p>
+        </div>
+
+        <div class="stories-section">
+            <h3>📸 STORIES INTERATIVOS DA SEMANA (4)</h3>
+            
+            <div class="story-item">
+                <strong>STORY 1 - Prova Social:</strong><br>
+                "[X] pessoas já garantiram vaga!"<br>
+                "E você? Link na bio!"<br>
+                [Print de inscrições]
+            </div>
+            
+            <div class="story-item">
+                <strong>STORY 2 - Benefício:</strong><br>
+                "No workshop você descobre:"<br>
+                "Qual é o SEU propósito único"<br>
+                "(não o que esperam de você)"<br>
+                [GIF inspirador + link]
+            </div>
+            
+            <div class="story-item">
+                <strong>STORY 3 - Enquete:</strong><br>
+                "Você vai participar do workshop dia 14?"<br>
+                □ JÁ GARANTI VAGA!<br>
+                □ Ainda vou garantir<br>
+                □ Tô em dúvida
+            </div>
+            
+            <div class="story-item">
+                <strong>STORY 4 - Teaser Mistério:</strong><br>
+                "No final do workshop..."<br>
+                "Vou revelar algo ESPECIAL"<br>
+                "Só pra quem estiver lá 👀"<br>
+                [Gerar FOMO + link]
+            </div>
+        </div>
+
+        <div class="post reels">
+            <div class="post-header">
+                <span class="date">01/12 - Domingo</span>
+                <span class="format reels-tag">REELS #3</span>
+            </div>
+            <div class="post-title">O Erro que Te Mantém Presa no Mesmo Lugar 🔒</div>
+            <div class="post-content">ROTEIRO REELS (40-45 segundos):
+
+[GANCHO - 3s]
+Carla séria
+Texto: "Você comete esse erro todo ano"
+
+[O ERRO - 25s]
+Carla falando direto pra câmera:
+
+"Você planeja sozinha.
+
+Pega o caderno.
+Faz a lista.
+Define as metas.
+
+Tudo sozinha.
+
+Sem buscar direção.
+Sem pedir sabedoria.
+Sem consultar Aquele
+que te CRIOU e sabe
+EXATAMENTE o que você precisa."
+
+[Pausa dramática]
+
+"E aí passa o ano inteiro
+lutando, forçando, empurrando...
+
+Porque você tá tentando
+abrir uma porta
+que Deus não abriu."
+
+[SOLUÇÃO - 12s]
+"E se você planejasse DIFERENTE?
+
+E se você buscasse direção ANTES?
+
+E se 2026 fosse co-criado
+com Aquele que já sabe o final da história?"
+
+[CTA - 5s]
+"14 de Dezembro
+Workshop - Link na bio 🙏"
+
+ÁUDIO: Música reflexiva e profunda
+
+LEGENDA:
+Isso vai doer um pouco, mas precisa ser dito:
+
+Se os seus planos vivem dando errado... talvez seja porque você está planejando SOZINHA.
+
+Eu sei, eu sei... você é forte. Você é capaz.
+
+Mas SER CAPAZ não significa que você DEVERIA fazer sozinha.
+
+Principalmente quando se trata do SEU PROPÓSITO. Do SEU CHAMADO.
+
+Porque você pode ter a estratégia mais incrível...
+
+Mas se não estiver alinhado com o que Deus preparou pra você?
+
+Vai ser só frustração.
+
+É como tentar abrir uma porta que Ele não abriu.
+
+No Workshop do dia 14/12, eu vou te ensinar um processo completamente diferente.
+
+Um processo que COMEÇA com buscar direção divina.
+
+Que PRIORIZA alinhamento antes de estratégia.
+
+🗓️ 14 de Dezembro | 2 horas
+💰 R$ 47
+
+🔗 Link na bio
+
+Porque 2026 pode ser só mais um ano de planos frustrados...
+
+Ou pode ser o ano em que você finalmente entende pra onde Deus está te chamando.
+
+Comenta "ESTAREI LÁ" se você vem! 💜🙏</div>
+            <div class="hashtags">#PlanejamentoComDeus #ProposicoDivino #Fe #Transformacao #Workshop</div>
+        </div>
+
+        <div class="post educacional">
+            <div class="post-header">
+                <span class="date">03/12 - Terça</span>
+                <span class="format educacional-tag">EDUCACIONAL</span>
+            </div>
+            <div class="post-title">Como Saber se Você Está no Caminho Certo? 🧭</div>
+            <div class="post-content">Essa é uma das perguntas que mais recebo:
+
+"Carla, como eu sei se estou no caminho certo?"
+
+E a resposta não é o que você espera ouvir.
+
+---
+
+Não é sobre:
+❌ Ter tudo dando certo
+❌ Não ter desafios
+❌ Sentir paz 100% do tempo
+❌ Todo mundo aprovar suas escolhas
+
+Porque se você espera por essas coisas... nunca vai ter certeza.
+
+---
+
+**Você ESTÁ no caminho certo quando:**
+
+**1. Você tem PAZ no meio do caos**
+
+Não ausência de tempestade.
+Mas paz NO MEIO da tempestade.
+
+Aquela sensação profunda de "eu sei que estou onde preciso estar, mesmo que seja difícil".
+
+**2. Você cresce ATRAVÉS dos desafios**
+
+O caminho certo não é fácil.
+Mas é TRANSFORMADOR.
+
+Cada desafio te faz crescer, não te faz querer desistir de tudo.
+
+**3. Você está ALINHADA com seus valores**
+
+Não está traindo quem você é pra chegar onde quer ir.
+
+Não está sacrificando sua essência pela conquista.
+
+**4. Deus confirma de formas inesperadas**
+
+Portas se abrem.
+Pessoas certas aparecem.
+Recursos surgem.
+
+Não de forma mágica, mas de forma SOBRENATURAL.
+
+**5. Você sente que está SERVINDO**
+
+Não só conquistando.
+Mas servindo ao propósito maior.
+
+Seu caminho beneficia outras pessoas além de você.
+
+---
+
+**E você sabe que NÃO está no caminho certo quando:**
+
+🚫 Você tem sucesso mas nenhuma paz
+🚫 Você conquista mas se sente vazia
+🚫 Você precisa mentir sobre quem é
+🚫 Você não consegue dormir tranquila
+🚫 Tudo parece uma luta contra a correnteza
+
+---
+
+O caminho certo não é o mais fácil.
+
+Mas é o que faz SENTIDO.
+
+É o que te dá paz mesmo na dificuldade.
+
+É o que te transforma enquanto te leva.
+
+E a MELHOR notícia?
+
+Você pode ESCOLHER entrar nesse caminho.
+
+Você pode DECIDIR alinhar sua vida com seu propósito.
+
+Não é sobre "ter sorte" ou "Deus escolher alguns".
+
+É sobre BUSCAR. ALINHAR. OBEDECER.
+
+---
+
+Qual desses sinais você reconhece na sua vida agora?
+
+Ou qual você QUER reconhecer?
+
+Me conta aqui embaixo! 💜</div>
+            <div class="hashtags">#CaminhoCorreto #Proposito #DirecaoDivina #Alinhamento #VidaComSentido</div>
+        </div>
+
+        <div class="post reels">
+            <div class="post-header">
+                <span class="date">05/12 - Quinta</span>
+                <span class="format reels-tag">REELS #4</span>
+            </div>
+            <div class="post-title">O Que Você VAI Receber no Workshop 🎁</div>
+            <div class="post-content">ROTEIRO REELS (40-45 segundos):
+
+[GANCHO - 3s]
+Carla empolgada
+Texto: "O que TEM no workshop?"
+
+[ENTREGÁVEIS - 32s]
+Carla mostrando cada item visualmente:
+
+"✨ Workbook COMPLETO
+Ferramenta de trabalho profissional
+pra usar durante e depois
+
+🎯 Seu PROPÓSITO mapeado
+O SEU. Único. Verdadeiro.
+Não aquele genérico da internet
+
+💜 Seus VALORES definidos
+Os não-negociáveis.
+O que você NÃO abre mão
+
+📋 Seu PLANO 2026
+Estruturado. Trimestral. Alcançável.
+Não lista aleatória de metas
+
+🙏 Direção DIVINA
+Tempo de buscar o que Deus
+tá falando especificamente pra VOCÊ
+
+📹 Replay por 7 dias
+Pra rever quantas vezes precisar
+
+🎁 BÔNUS: Template trimestral
+Pra acompanhar durante o ano"
+
+[DIFERENCIAL - 7s]
+"Mas o MAIOR valor?
+
+Você sai com tudo FEITO.
+
+Não 'inspirada pra fazer depois'.
+FEITO. Pronto."
+
+[CTA - 3s]
+"14/12 - R$ 47
+Link na bio 🎯"
+
+ÁUDIO: Música empolgante
+
+LEGENDA:
+Deixa eu ser MUITO específica sobre o que você recebe:
+
+✨ **WORKBOOK COMPLETO**
+Material estruturado, profissional, passo a passo que você trabalha DURANTE o workshop comigo.
+
+🎯 **SEU PROPÓSITO MAPEADO**
+No final dessas 2 horas, você sabe EXATAMENTE qual é seu propósito.
+
+💜 **SEUS VALORES DEFINIDOS**
+Aquilo que você NÃO NEGOCIA. Que guia TODAS suas decisões.
+
+📋 **SEU PLANO DE 2026**
+Dividido em trimestres. Com prioridades claras. FEITO. ALI.
+
+🙏 **ALINHAMENTO DIVINO**
+Tempo de buscar direção, ouvir a voz de Deus, alinhar TUDO.
+
+📹 **REPLAY POR 7 DIAS**
+Pra rever, refazer, aprofundar.
+
+🎁 **TEMPLATE DE ACOMPANHAMENTO**
+Pra você não fazer e guardar na gaveta. Ferramenta pra o ano TODO.
+
+Mas sabe o MAIOR valor?
+
+Você sai com tudo FEITO.
+
+Não "inspirada". PRONTA.
+
+🗓️ 14 de Dezembro
+⏰ 2 horas
+💰 R$ 47
+
+🔗 Link na bio
+
+Comenta "GARANTINDO VAGA" se você já se inscreveu ou "VOU GARANTIR" hoje! 💜🎯</div>
+            <div class="hashtags">#WorkshopCompleto #Planejamento2026 #ValorReal #TransformacaoImediata #LinkNaBio</div>
+        </div>
+
+        <div class="post">
+            <div class="post-header">
+                <span class="date">07/12 - Sábado</span>
+                <span class="format">POST HISTÓRIA</span>
+            </div>
+            <div class="post-title">Por Que EU Criei Esse Workshop? 💔→💜</div>
+            <div class="post-content">Preciso te contar uma história.
+
+Dezembro de 2019.
+
+Eu, empolgadíssima, com meu caderno lindo, fazendo o planejamento de 2020.
+
+147 metas. (Sim, eu contei.)
+
+Tudo organizado, colorido, dividido por áreas.
+
+Eu olhava aquilo e pensava: "ESSE ANO EU VOU!"
+
+---
+
+Março de 2020.
+
+Eu tinha desistido de 95% das metas.
+
+As que sobraram? Eu cumpria com tanta pressão que não tinha alegria nenhuma.
+
+Era obrigação. Não propósito.
+
+E o pior? EU ME CULPAVA.
+
+"Você não tem disciplina"
+"Você não é focada"
+"Você não termina nada"
+
+---
+
+Até que um dia, exausta, frustrada, eu parei.
+
+E orei:
+
+"Deus, POR QUÊ nada do que eu planejo dá certo?"
+
+E Ele me respondeu com uma pergunta que mudou TUDO:
+
+**"Você me consultou antes de fazer esses planos?"**
+
+💔
+
+Doeu.
+
+Porque a resposta era NÃO.
+
+Eu tinha feito uma lista linda do que EU achava que precisava.
+
+Baseada no que EU via os outros conquistando.
+
+Mas eu não tinha perguntado a ELE:
+
+"O que TU queres de mim?"
+
+---
+
+E foi ali que tudo mudou.
+
+Eu rasguei aquela lista de 147 metas.
+
+E comecei do zero.
+
+Mas dessa vez, diferente.
+
+Comecei OUVINDO.
+Buscando direção.
+Alinhando meu coração.
+
+E sabe o que aconteceu?
+
+2021 foi o ano mais TRANSFORMADOR da minha vida.
+
+Não porque eu "conquistei mais coisas".
+
+Mas porque eu estava no CAMINHO CERTO.
+
+Havia PAZ. Havia FAVOR. Havia PROPÓSITO.
+
+---
+
+É por isso que esse workshop existe.
+
+Porque eu sei o que é planejar errado.
+
+Eu sei o que é viver baseada em pressão externa ao invés de chamado interno.
+
+E eu NÃO quero isso pra você.
+
+No dia 14/12, eu vou te ensinar EXATAMENTE o processo que mudou minha vida.
+
+O método que EU uso TODO ano.
+
+Que me tirou da frustração e me colocou no propósito.
+
+---
+
+🗓️ 14 de Dezembro | 2 horas
+💰 R$ 47
+
+🔗 Link na bio
+
+E olha... no final do workshop, vou fazer um anúncio especial.
+
+Algo pra quem está REALMENTE pronta pra viver 2026 diferente.
+
+Mas isso é conversa pra quem estiver lá. 😉
+
+Nos vemos dia 14? 💜</div>
+            <div class="cta">❤️ Salva se isso tocou seu coração</div>
+            <div class="hashtags">#MinhaHistoria #PorQueEuCriei #TransformacaoReal #Workshop #Testemunho</div>
+        </div>
+
+        <!-- ========================================
+             SEMANA 3: 08-14/12 - SEMANA DO WORKSHOP
+        ======================================== -->
+
+        <div class="week-divider">🔥 SEMANA 3 (08-14/12): SEMANA DO WORKSHOP - WhatsApp Intensificado</div>
+
+        <div class="whatsapp-section">
+            <h3>📱 MENSAGENS WHATSAPP DA SEMANA</h3>
+            <p><strong>⚡ INTENSIFICAÇÃO MÁXIMA: 4 mensagens ⚡</strong></p>
+            
+            <p style="margin-top: 15px; background: rgba(255,255,255,0.3); padding: 10px; border-radius: 5px;"><strong>MENSAGEM 1 (Domingo 08/12):</strong></p>
+            <p style="margin-top: 10px; line-height: 1.8;">
+[Nome], ÚLTIMA SEMANA! 🚨
+
+O workshop é SÁBADO que vem (14/12).
+
+E eu preciso te dizer: no final do workshop, vou fazer um anúncio que SÓ as participantes vão ouvir.
+
+Algo que eu preparei com MUITO carinho para quem quer transformação PROFUNDA em 2026.
+
+Não vai estar disponível depois.
+
+Garanta sua vaga AGORA: https://pay.kiwify.com.br/kr8c27I
+
+Carla 💜
+            </p>
+
+            <p style="margin-top: 15px; background: rgba(255,255,255,0.3); padding: 10px; border-radius: 5px;"><strong>MENSAGEM 2 (Terça 10/12):</strong></p>
+            <p style="margin-top: 10px; line-height: 1.8;">
+[Nome], faltam 4 DIAS! ⏰
+
+Você já garantiu sua vaga?
+
+Workshop Planejamento com Propósito
+14/12 - Sábado
+2 horas que podem mudar seu 2026 INTEIRO
+
+R$ 47 - Link: https://pay.kiwify.com.br/kr8c27I
+
+Não deixa pra última hora!
+
+💜 Carla
+            </p>
+
+            <p style="margin-top: 15px; background: rgba(255,255,255,0.3); padding: 10px; border-radius: 5px;"><strong>MENSAGEM 3 (Quinta 12/12):</strong></p>
+            <p style="margin-top: 10px; line-height: 1.8;">
+[Nome], ÚLTIMAS 48 HORAS! 🚨
+
+Amanhã já é sexta. Depois, sábado.
+
+Você VAI ficar de fora?
+
+Workshop amanhã é a ÚLTIMA CHANCE de 2025 pra você aprender a planejar do jeito CERTO.
+
+E tem aquele anúncio especial que só vou fazer pra quem estiver presente...
+
+Decide AGORA: https://pay.kiwify.com.br/kr8c27I
+
+Te espero lá! 💜🎯
+
+Carla
+            </p>
+
+            <p style="margin-top: 15px; background: rgba(255,255,255,0.3); padding: 10px; border-radius: 5px;"><strong>MENSAGEM 4 (Sábado 14/12 - MANHÃ):</strong></p>
+            <p style="margin-top: 10px; line-height: 1.8;">
+BOM DIA, [nome]! ☀️
+
+HOJE É O DIA! 🎯
+
+Daqui a pouco nos encontramos no Workshop!
+
+Se você já garantiu vaga: TE ESPERO!
+
+Se ainda não garantiu: AINDA DÁ TEMPO!
+Link: https://pay.kiwify.com.br/kr8c27I
+
+Vem com caderno, caneta e coração aberto 💜
+
+Vai ser TRANSFORMADOR!
+
+Nos vemos já já!
+
+Carla 🧭✨
+            </p>
+        </div>
+
+        <div class="stories-section">
+            <h3>📸 STORIES INTERATIVOS DA SEMANA (4+)</h3>
+            <p><strong>⚡ STORIES INTENSIFICADOS - Postar DIARIAMENTE ⚡</strong></p>
+            
+            <div class="story-item">
+                <strong>DOMINGO - Contagem:</strong><br>
+                "FALTAM 6 DIAS! ⏰"<br>
+                "Workshop Planejamento com Propósito"<br>
+                "Você já garantiu vaga?"<br>
+                [Link direto]
+            </div>
+            
+            <div class="story-item">
+                <strong>SEGUNDA - Benefício:</strong><br>
+                "5 DIAS!"<br>
+                "Você vai sair do workshop com:"<br>
+                "✅ Propósito mapeado"<br>
+                "✅ Plano 2026 pronto"<br>
+                "✅ Alinhamento divino"<br>
+                [Link]
+            </div>
+
+            <div class="story-item">
+                <strong>TERÇA - Urgência:</strong><br>
+                "4 DIAS!"<br>
+                "Vagas limitadas!"<br>
+                "Garante a tua AGORA"<br>
+                [Link + timer]
+            </div>
+
+            <div class="story-item">
+                <strong>QUARTA - Mistério:</strong><br>
+                "3 DIAS!"<br>
+                "E o anúncio especial?"<br>
+                "Só pra quem estiver no workshop 👀"<br>
+                [Gerar FOMO]
+            </div>
+
+            <div class="story-item">
+                <strong>QUINTA - Últimas Horas:</strong><br>
+                "2 DIAS!"<br>
+                "ÚLTIMAS VAGAS!"<br>
+                "Não perde!"<br>
+                [Link urgente]
+            </div>
+
+            <div class="story-item">
+                <strong>SEXTA - Véspera:</strong><br>
+                "AMANHÃ É O DIA!"<br>
+                "Última chance de garantir vaga"<br>
+                "Link na bio - CORRE!"
+            </div>
+
+            <div class="story-item">
+                <strong>SÁBADO MANHÃ - Dia do Evento:</strong><br>
+                "HOJE! AGORA!"<br>
+                "Nos vemos daqui a pouco 💜"<br>
+                "Quem já tá confirmada?"
+            </div>
+        </div>
+
+        <div class="post reels">
+            <div class="post-header">
+                <span class="date">08/12 - Domingo</span>
+                <span class="format reels-tag">REELS #5</span>
+            </div>
+            <div class="post-title">Faltam 6 Dias. Você Vai Deixar Passar? ⏰</div>
+            <div class="post-content">ROTEIRO REELS (30-40 segundos):
+
+[GANCHO - 3s]
+Carla séria, relógio em destaque
+Texto: "6 dias..."
+
+[REFLEXÃO - 24s]
+Carla falando direto:
+
+"Em 6 dias você vai tomar uma decisão.
+
+Participar do workshop...
+Ou deixar pra 'próxima vez'.
+
+Se você deixar passar...
+Vai chegar em 2026.
+Vai fazer suas listas.
+Vai prometer que 'agora vai'.
+
+E provavelmente vai desistir
+em março. De novo.
+
+MAS...
+
+Se você vier no sábado...
+
+Você sai DIFERENTE.
+
+Com clareza.
+Com propósito.
+Com PLANO real."
+
+[CTA - 10s]
+"A escolha é sua.
+
+Mais do mesmo?
+Ou transformação REAL?
+
+6 dias pra decidir."
+
+"Link na bio 🎯"
+
+ÁUDIO: Música urgente
+
+LEGENDA:
+Não vou te convencer de nada.
+
+Vou só te dar OS FATOS:
+
+📍 Faltam 6 dias pro workshop
+📍 R$ 47
+📍 2 horas que podem mudar seu 2026
+📍 Você vai sair com tudo PRONTO
+
+Você decide:
+
+**OPÇÃO 1:** Deixa passar. Faz igual sempre. Espera resultado diferente.
+
+**OPÇÃO 2:** Garante vaga. Aparece dia 14. Transforma 2026.
+
+🔗 Link na bio
+
+DECIDE. AGORA.
+
+Comenta "DECIDIDO" se você já garantiu vaga! 💜🎯</div>
+            <div class="hashtags">#6Dias #Workshop14Dezembro #Decisão #UltimaChance</div>
+        </div>
+
+        <div class="post">
+            <div class="post-header">
+                <span class="date">10/12 - Terça</span>
+                <span class="format">FAQ - CARROSSEL</span>
+            </div>
+            <div class="post-title">Suas Dúvidas Sobre o Workshop ❓✨</div>
+            <div class="post-content">SLIDE 1: [CAPA]
+Perguntas Frequentes
+WORKSHOP - 14/12
+Últimas dúvidas!
+
+SLIDE 2: "Que horas é?"
+📍 [Inserir horário]
+📍 2 horas de duração
+📍 Online e ao vivo
+📍 Replay disponível!
+
+SLIDE 3: "Preciso experiência?"
+NÃO!
+
+É pra QUALQUER pessoa:
+• Nunca planejou
+• Já planejou e não deu certo
+• Quer começar DO JEITO CERTO
+
+SLIDE 4: "É ao vivo?"
+SIM!
+
+Você trabalha COMIGO
+durante as 2 horas.
+
+Não é "assiste e faz depois".
+É "faz AGORA, comigo junto".
+
+SLIDE 5: "Vou sair com o quê?"
+✅ Propósito mapeado
+✅ Valores definidos
+✅ Plano 2026 PRONTO
+✅ Direção divina
+✅ Material completo
+
+SLIDE 6: "Quanto custa?"
+R$ 47
+
+Menos que 2 deliveries
+Pra transformar UM ANO INTEIRO
+
+SLIDE 7: "Tem garantia?"
+SIM!
+
+Se não valer a pena,
+devolvo 100%.
+
+(Mas aposto que vai valer)
+
+SLIDE 8: [CTA]
+Acabaram as desculpas?
+
+14 de Dezembro
+Link na bio
+R$ 47 🎯
+
+LEGENDA:
+Respondi as principais dúvidas!
+
+Mas deixa eu adicionar mais uma coisa:
+
+**"E esse 'anúncio especial'?"**
+
+É algo que EU NUNCA FIZ ANTES.
+
+Pra quem quer ir MUITO além do workshop.
+
+Disponível APENAS pra quem participar.
+
+Mas isso você descobre dia 14. 😉
+
+🗓️ Sábado - 14 de Dezembro
+⏰ 2 horas
+💰 R$ 47
+
+🔗 Link na bio
+
+Dúvidas? Comenta aqui! 💜</div>
+            <div class="hashtags">#FAQ #Workshop14Dezembro #UltimasDuvidas #LinkNaBio</div>
+        </div>
+
+        <div class="post reels">
+            <div class="post-header">
+                <span class="date">12/12 - Quinta</span>
+                <span class="format reels-tag">REELS #6</span>
+            </div>
+            <div class="post-title">48 Horas. DECIDE. ⏰🚨</div>
+            <div class="post-content">ROTEIRO REELS (30-35 segundos):
+
+[GANCHO - 2s]
+Carla MUITO séria
+Texto: "48 HORAS"
+
+[ULTIMATO - 23s]
+Carla falando DIRETO:
+
+"Em 48 horas...
+
+Ou você estará no workshop
+transformando 2026
+
+Ou estará fora
+fazendo igual sempre fez.
+
+NÃO VAI TER:
+• 'Posso entrar depois?'
+• 'Não sabia que ia fechar'
+
+Essa é sua chance.
+ÚNICA.
+AGORA.
+
+Você tem 48 horas pra decidir
+se 2026 vai ser diferente."
+
+[CTA - 8s]
+"Workshop 14/12
+R$ 47
+Link na bio
+
+DECIDE. AGORA. 🎯"
+
+ÁUDIO: Beat urgente
+
+LEGENDA:
+Não vou enrolar.
+
+Em 48 horas você decide:
+
+PARTICIPAR do workshop... ou PERDER a oportunidade.
+
+Simples assim.
+
+🗓️ 14 de Dezembro
+⏰ 2 horas
+💰 R$ 47
+
+🔗 Link na bio
+
+ÚLTIMA CHANCE.
+
+Comenta "DECIDIDO" agora! 💜🎯</div>
+            <div class="hashtags">#48Horas #Urgencia #Workshop #DecideAgora #LinkNaBio</div>
+        </div>
+
+        <div class="post especial">
+            <div class="post-header">
+                <span class="date">14/12 - Sábado</span>
+                <span class="format">DIA DO EVENTO</span>
+            </div>
+            <div class="post-title">HOJE É O DIA! 🎯✨</div>
+            <div class="post-content">BOM DIA e FELIZ DIA 14!
+
+Hoje é o dia do Workshop "Planejamento com Propósito"!
+
+Se você garantiu vaga: ESTOU TE ESPERANDO! 💜
+
+Daqui a pouco vamos:
+
+✨ Descobrir seu propósito REAL
+💜 Mapear seus valores
+🎯 Criar seu plano 2026
+🙏 Buscar direção divina
+
+Vem com:
+• Caderno e caneta
+• Coração aberto
+• 2 horas livres
+
+E no FINAL... tem surpresa. 😉
+
+---
+
+Se você NÃO garantiu vaga...
+
+AINDA DÁ TEMPO!
+
+🔗 Link na bio - CORRE!
+
+---
+
+Nos vemos daqui a pouco! 🎯💜
+
+Quem já tá confirmada, comenta "PRONTA!" ⬇️</div>
+            <div class="cta">🚨 ÚLTIMO CALL - Link na bio!</div>
+            <div class="hashtags">#WorkshopHoje #14Dezembro #HojeEoDia #Transformacao #VamosJuntas</div>
+        </div>
+
+        <!-- ========================================
+             SEMANA 4: 15-21/12 - PÓS WORKSHOP + NATAL
+        ======================================== -->
+
+        <div class="week-divider">🧭 SEMANA 4 (15-21/12): Bússola + Natal Consciente</div>
+
+        <div class="whatsapp-section">
+            <h3>📱 MENSAGEM WHATSAPP DA SEMANA</h3>
+            <p><strong>Frequência:</strong> 1 mensagem</p>
+            <p style="margin-top: 10px; line-height: 1.8;">
+[Nome]! 💜
+
+QUE WORKSHOP FOI AQUELE ONTEM!
+
+Ainda tô processando tudo...
+
+E se você estava lá, você JÁ SABE sobre a BÚSSOLA.
+
+O Clube Anual de Transformação Integral.
+
+12 meses. 12 vagas. Apenas.
+
+Se você NÃO estava no workshop mas quer saber mais...
+
+Me responde aqui que eu te conto TUDO.
+
+As vagas estão indo rápido!
+
+Com amor,
+Carla 🧭💜
+            </p>
+        </div>
+
+        <div class="stories-section">
+            <h3>📸 STORIES INTERATIVOS DA SEMANA (4)</h3>
+            
+            <div class="story-item">
+                <strong>STORY 1 - Gratidão:</strong><br>
+                "Gente, QUE WORKSHOP! 💜"<br>
+                "Obrigada a cada uma!"<br>
+                [Fotos do evento]
+            </div>
+            
+            <div class="story-item">
+                <strong>STORY 2 - Teaser Bússola:</strong><br>
+                "E a BÚSSOLA?! 🧭"<br>
+                "12 vagas. 12 meses."<br>
+                "Quem tava lá já sabe..."
+            </div>
+            
+            <div class="story-item">
+                <strong>STORY 3 - Educacional Natal:</strong><br>
+                "Como você quer viver o Natal?"<br>
+                "□ No automático"<br>
+                "□ Com presença real"
+            </div>
+            
+            <div class="story-item">
+                <strong>STORY 4 - Vagas Bússola:</strong><br>
+                "ATENÇÃO: [X] vagas preenchidas"<br>
+                "Da Bússola"<br>
+                "No workshop mesmo!"
+            </div>
+        </div>
+
+        <div class="post reels">
+            <div class="post-header">
+                <span class="date">15/12 - Domingo</span>
+                <span class="format reels-tag">REELS #7 - BÚSSOLA</span>
+            </div>
+            <div class="post-title">O Anúncio que Mudou Tudo 🧭✨</div>
+            <div class="post-content">ROTEIRO REELS (40-45 segundos):
+
+[GANCHO - 3s]
+Carla emocionada
+Texto: "Ontem eu revelei..."
+
+[REVELAÇÃO - 32s]
+Carla do coração:
+
+"No final do workshop...
+
+Eu revelei algo que venho guardando.
+
+BÚSSOLA
+
+Meu primeiro clube anual.
+12 vagas. Apenas.
+
+Um ano INTEIRO comigo.
+
+Janeiro a dezembro 2026.
+
+2 encontros por mês:
+• 1 online (segunda 6h)
+• 1 presencial (sábado)
+
+Cura profunda nos primeiros 6 meses.
+Propósito e prosperidade nos últimos 6.
+
+12 meses de transformação INTEGRAL."
+
+[EMOÇÃO - 8s]
+"E gente...
+
+Ontem mesmo,
+várias vagas foram preenchidas.
+
+Porque quem tava presente
+SENTIU que era pra ela."
+
+[CTA - 4s]
+"Restam poucas vagas.
+Me chama no direct 🧭"
+
+ÁUDIO: Música profunda
+
+LEGENDA:
+Ainda tô processando o que aconteceu ontem...
+
+O workshop foi LINDO.
+
+Mas o que aconteceu no final... foi além.
+
+Quando eu revelei a BÚSSOLA.
+
+O Clube Anual de Transformação Integral.
+
+12 meses. Janeiro a dezembro 2026.
+
+Não é curso. Não é programa de 3 meses.
+
+É um CLUBE. Um ano INTEIRO.
+
+**O QUE É A BÚSSOLA:**
+
+🧭 12 meses de jornada (jan-dez 2026)
+💜 24 encontros (2 por mês: 1 online + 1 presencial)
+✨ Grupo exclusivo de 12 mulheres
+🎯 Plataforma com aulas gravadas
+🙏 Primeiros 6 meses: CURA PROFUNDA
+💎 Últimos 6 meses: PROPÓSITO & PROSPERIDADE
+
+**INVESTIMENTO:**
+R$ 1.497 à vista ou 12x R$ 154,82
+
+Ali no workshop, várias já garantiram vaga.
+
+Porque SENTIRAM: "Isso é pra MIM."
+
+Se você não estava... e quer saber mais...
+
+Me chama no direct.
+
+Porque quando acabar as 12 vagas... acabou.
+
+Quem ficou curiosa? Comenta aqui! 🧭💜</div>
+            <div class="hashtags">#Bussola #ClubeAnual #12Meses #TransformacaoIntegral #12Vagas</div>
+        </div>
+
+        <div class="post educacional">
+            <div class="post-header">
+                <span class="date">17/12 - Terça</span>
+                <span class="format educacional-tag">EDUCACIONAL</span>
+            </div>
+            <div class="post-title">O Que Significa Curar Raízes Profundas? 🌱</div>
+            <div class="post-content">Eu falo muito sobre "curar raízes profundas".
+
+Mas o que isso REALMENTE significa?
+
+---
+
+**Raízes profundas são:**
+
+As feridas emocionais e espirituais que aconteceram lá atrás (infância, adolescência, primeiras experiências) e que hoje CONTROLAM sua vida.
+
+Não de forma óbvia.
+
+Mas de forma sutil, repetitiva, automática.
+
+---
+
+**EXEMPLOS:**
+
+🌱 **Raiz de rejeição**
+→ Você foi rejeitada quando criança
+→ Hoje você não consegue dizer não
+→ Vive buscando aprovação externa
+→ Anula-se nos relacionamentos
+
+🌱 **Raiz de abandono**
+→ Você foi abandonada por alguém importante
+→ Hoje você tem medo de se apegar
+→ Sabota relacionamentos antes que te deixem
+→ Vive com medo de perder as pessoas
+
+🌱 **Raiz de não ser suficiente**
+→ Você foi comparada, diminuída
+→ Hoje você se cobra DEMAIS
+→ Nunca celebra suas conquistas
+→ Vive tentando provar seu valor
+
+---
+
+**Por que precisamos curar as RAÍZES?**
+
+Porque não adianta trabalhar só os SINTOMAS.
+
+Você pode:
+• Fazer terapia pra ansiedade
+• Ler livros de autoestima
+• Fazer cursos de produtividade
+
+Mas se a RAIZ não for curada...
+
+Os sintomas voltam.
+
+De formas diferentes. Mas voltam.
+
+---
+
+**Como se cura raiz?**
+
+Não é rápido. Não é fácil. Mas é POSSÍVEL.
+
+**1. RECONHECER**
+"Eu tenho essa ferida. Ela existe. Não é fraqueza."
+
+**2. ENTENDER A ORIGEM**
+"De onde veio? Que momento plantou isso?"
+
+**3. PERDOAR** (a si mesma, aos outros, a Deus)
+"Eu libero essa mágoa. Eu solto."
+
+**4. RESSIGNIFICAR**
+"Essa experiência não me define. Sou maior que ela."
+
+**5. INSTALAR NOVA VERDADE**
+"Eu SOU amada. Eu SOU suficiente. Eu SOU escolhida."
+
+**6. VIVER A PARTIR DA NOVA VERDADE**
+Não só entender. VIVER.
+
+---
+
+**E é por isso que a Bússola existe.**
+
+Porque cura de raiz não acontece em 1 dia.
+
+Não acontece em 1 workshop.
+
+Acontece em PROCESSO. Em JORNADA.
+
+Com tempo. Com suporte. Com comunidade.
+
+Nos primeiros 6 meses da Bússola (jan-jun 2026), trabalhamos EXATAMENTE isso:
+
+• Raízes de rejeição
+• Padrões familiares
+• Crenças limitantes
+• Orgulho e autossuficiência
+• Medo e ansiedade
+
+De RAIZ. Não superficialmente.
+
+---
+
+Você reconhece alguma raiz em você?
+
+Me conta aqui, sem julgamento. Só acolhimento. 💜</div>
+            <div class="hashtags">#RaizesProfundas #CuraEmocional #Autoconhecimento #TransformacaoReal #Libertacao</div>
+        </div>
+
+        <div class="post especial">
+            <div class="post-header">
+                <span class="date">20/12 - Sexta</span>
+                <span class="format">NATAL ESPECIAL</span>
+            </div>
+            <div class="post-title">O Natal que Seu Coração Precisa 🎄💜</div>
+            <div class="post-content">Natal está chegando.
+
+E com ele, aquela pressão toda:
+
+Comprar presentes.
+Preparar ceia.
+Visitar família.
+Sorrir nas fotos.
+Fingir que tá tudo bem.
+
+---
+
+Mas... e se esse Natal fosse DIFERENTE?
+
+E se, ao invés de performar perfeição, você escolhesse PRESENÇA?
+
+E se, ao invés de agradar todo mundo, você honrasse a si mesma?
+
+E se esse Natal fosse sobre CONEXÃO REAL, não sobre expectativas cumpridas?
+
+---
+
+**5 PERMISSÕES QUE VOCÊ PODE SE DAR NESSE NATAL:**
+
+💜 **1. Você pode NÃO ir a todos os eventos**
+
+Sua energia é limitada.
+Seu tempo é sagrado.
+
+Escolha onde você REALMENTE quer estar.
+
+💜 **2. Você pode estabelecer LIMITES na família**
+
+"Esse assunto eu não vou discutir."
+"Essa pergunta eu não vou responder."
+
+Harmonia não exige sua anulação.
+
+💜 **3. Você pode gastar MENOS**
+
+Presente caro não é prova de amor.
+
+Um presente simples e verdadeiro vale mais.
+
+💜 **4. Você pode pedir AJUDA**
+
+"Não vou fazer tudo sozinha esse ano."
+
+Natal não é teste de resistência.
+
+💜 **5. Você pode sentir o que REALMENTE sente**
+
+Se está triste, pode estar triste.
+Se não está com "espírito natalino", tudo bem.
+
+Você não precisa performar felicidade.
+
+---
+
+**O verdadeiro espírito de Natal não tem nada a ver com perfeição.**
+
+Tem a ver com PRESENÇA.
+
+Com estar ali. De verdade.
+
+Sentindo o que você sente.
+Sendo quem você é.
+Conectando de forma real.
+
+---
+
+Esse Natal, se dá permissão pra SER.
+
+Não perfeita. Mas VERDADEIRA.
+
+Não performática. Mas PRESENTE.
+
+Não esgotada. Mas INTEIRA.
+
+Você merece um Natal que te NUTRE, não que te esgota.
+
+E isso começa com VOCÊ escolhendo diferente.
+
+---
+
+Feliz Natal, meu amor.
+
+Do jeito que fizer sentido pro SEU coração. 🎄💜
+
+Qual dessas permissões você mais precisa se dar?
+
+Comenta aqui! 👇</div>
+            <div class="hashtags">#FelizNatal #NatalComProposito #Permissoes #LimitesSaudaveis #PresencaReal #Natal2025</div>
+        </div>
+
+        <!-- ========================================
+             SEMANA 5: 22-28/12 - FECHAMENTO ANO
+        ======================================== -->
+
+        <div class="week-divider">🌟 SEMANA 5 (22-28/12): Fechamento de 2025 + Bússola</div>
+
+        <div class="whatsapp-section">
+            <h3>📱 MENSAGEM WHATSAPP DA SEMANA</h3>
+            <p><strong>Frequência:</strong> 1 mensagem</p>
+            <p style="margin-top: 10px; line-height: 1.8;">
+[Nome], última semana de 2025! 💫
+
+Como você se sente olhando pra trás?
+
+Gratidão? Frustração? Alívio? Tudo junto?
+
+Seja o que for que você sente... é válido.
+
+E 2026 está chegando...
+
+A pergunta é: você quer começar sozinha (de novo)?
+
+Ou quer ter SUPORTE REAL durante 12 meses?
+
+BÚSSOLA - Restam [X] vagas
+
+Link: https://pay.kiwify.com.br/7aq7Uku
+
+Me chama se quiser saber mais 💜🧭
+
+Carla
+            </p>
+        </div>
+
+        <div class="stories-section">
+            <h3>📸 STORIES INTERATIVOS DA SEMANA (4)</h3>
+            
+            <div class="story-item">
+                <strong>STORY 1 - Reflexão:</strong><br>
+                "Última semana de 2025..."<br>
+                "Como você se sente?"<br>
+                [Emoji slider de emoções]
+            </div>
+            
+            <div class="story-item">
+                <strong>STORY 2 - Bússola Vagas:</strong><br>
+                "ATUALIZAÇÃO BÚSSOLA:"<br>
+                "Restam [X] vagas das 12"<br>
+                "Você quer uma?"
+            </div>
+            
+            <div class="story-item">
+                <strong>STORY 3 - Caixinha:</strong><br>
+                "Complete: Em 2025 eu aprendi que..."<br>
+                [Compilar respostas bonitas]
+            </div>
+            
+            <div class="story-item">
+                <strong>STORY 4 - Preparação 2026:</strong><br>
+                "Como você quer começar 2026?"<br>
+                "□ Sozinha"<br>
+                "□ Com suporte real"
+            </div>
+        </div>
+
+        <div class="post reels">
+            <div class="post-header">
+                <span class="date">23/12 - Segunda</span>
+                <span class="format reels-tag">REELS #8</span>
+            </div>
+            <div class="post-title">Você Conquistou Mais do Que Imagina 🏆💜</div>
+            <div class="post-content">ROTEIRO REELS (35-40 segundos):
+
+[GANCHO - 4s]
+Carla olhando pra câmera
+Texto: "Você conquistou algo GRANDE"
+
+[NEGAÇÃO - 8s]
+Carla balança cabeça
+"Você: 'Mas eu não fiz nada demais...'"
+
+[VIRADA - 23s]
+Carla intensa:
+
+"E se sua maior conquista foi:
+
+SOBREVIVER a um ano difícil?
+
+CONTINUAR tentando?
+
+Não PERDER você mesma no caos?
+
+APRENDER sobre quem você é?
+
+TER CHEGADO ATÉ AQUI?"
+
+[CTA - 5s]
+"Isso não é pouco.
+Isso é TUDO.
+
+Você é mais forte do que imagina."
+
+ÁUDIO: Música emocionante
+
+LEGENDA:
+A gente tem uma tendência de desvalorizar as próprias vitórias.
+
+"Ah, mas eu só..."
+"Não foi nada demais..."
+
+PARA.
+
+Olha pra janeiro de 2025.
+
+Você CHEGOU até aqui.
+
+Atravessou desafios.
+Enfrentou medos.
+Sobreviveu a dias que te quebraram.
+
+E ainda assim... você está aqui. VIVA. Tentando.
+
+Isso é prova de uma FORÇA que você nem sabe que tem.
+
+Seu 2025 merece ser honrado.
+
+Com tudo de difícil que ele teve.
+
+Porque você ATRAVESSOU.
+
+Me conta: qual foi SUA maior conquista em 2025?
+
+A real, não a performática. 👇💜</div>
+            <div class="hashtags">#ConquistasReais #Fechamento2025 #VocêÉForte #Gratidao</div>
+        </div>
+
+        <div class="post educacional">
+            <div class="post-header">
+                <span class="date">24/12 - Terça</span>
+                <span class="format educacional-tag">EDUCACIONAL</span>
+            </div>
+            <div class="post-title">A Diferença Entre Cura e Transformação 💫</div>
+            <div class="post-content">As pessoas confundem muito esses dois conceitos.
+
+Então deixa eu te explicar a diferença (e por que você precisa dos DOIS):
+
+---
+
+**CURA é sobre o PASSADO**
+
+É olhar pra trás.
+É revisitar feridas.
+É perdoar.
+É ressignificar.
+É fazer as pazes com o que foi.
+
+Cura te LIBERTA do passado.
+
+---
+
+**TRANSFORMAÇÃO é sobre o FUTURO**
+
+É olhar pra frente.
+É criar novo.
+É construir.
+É manifestar.
+É viver o que você se tornou.
+
+Transformação te LANÇA pro futuro.
+
+---
+
+**Por que você precisa dos DOIS?**
+
+Porque não adianta só curar e não transformar.
+
+Você fica livre do passado... mas presa no presente. Sem saber pra onde ir.
+
+E não adianta só buscar transformação sem curar.
+
+Você tenta construir novo... mas as raízes velhas sabotam tudo.
+
+---
+
+**É tipo construir uma casa:**
+
+🏚️ **Só cura = terreno limpo, mas sem casa**
+
+Você tirou todo o lixo, arrancou as pragas, limpou o terreno.
+
+Mas agora? Vai ficar só olhando pro terreno limpo?
+
+🏗️ **Só transformação = casa linda com fundação podre**
+
+Você construiu uma mansão linda.
+
+Mas sobre raízes não curadas. E na primeira tempestade... desaba tudo.
+
+🏡 **Cura + Transformação = casa firme e linda**
+
+Primeiro você limpa o terreno (CURA).
+
+Depois você constrói a casa (TRANSFORMAÇÃO).
+
+E aí sim você TEM algo sustentável.
+
+---
+
+**É exatamente por isso que a Bússola é dividida em 2 fases:**
+
+**FASE 1 (Jan-Jun): CURA PROFUNDA**
+• Raízes emocionais
+• Padrões limitantes
+• Feridas não curadas
+• Limpeza do terreno
+
+**FASE 2 (Jul-Dez): PROPÓSITO & PROSPERIDADE**
+• Identidade em Cristo
+• Descoberta do chamado
+• Ativação do propósito
+• Construção da casa
+
+---
+
+Você não pode pular nenhuma etapa.
+
+Não dá pra ir direto pro propósito sem curar as raízes.
+
+(Muita gente tenta. E por isso não consegue sustentar.)
+
+E não dá pra ficar só na cura, sem nunca construir novo.
+
+(Muita gente faz. E fica presa no processo sem nunca prosperar.)
+
+---
+
+Você precisa dos DOIS.
+
+CURA + TRANSFORMAÇÃO.
+
+LIBERDADE DO PASSADO + CONSTRUÇÃO DO FUTURO.
+
+E é isso que acontece em 12 meses na Bússola.
+
+---
+
+Onde você está agora?
+
+Ainda precisa curar? Ou já tá pronta pra transformar?
+
+Me conta! 💜</div>
+            <div class="hashtags">#CuraETransformacao #ProcessoCompleto #Libertacao #Proposito #JornadaIntegral</div>
+        </div>
+
+        <div class="post reels">
+            <div class="post-header">
+                <span class="date">26/12 - Quinta</span>
+                <span class="format reels-tag">REELS #9 - BÚSSOLA</span>
+            </div>
+            <div class="post-title">Por Que Apenas 12 Vagas? 🎯</div>
+            <div class="post-content">ROTEIRO REELS (35-40 segundos):
+
+[GANCHO - 3s]
+Carla séria
+Texto: "Por que SÓ 12?"
+
+[EXPLICAÇÃO - 27s]
+Carla do coração:
+
+"Eu poderia abrir pra 50.
+Poderia ganhar mais.
+
+Mas não é sobre isso.
+
+Com 12 eu consigo:
+
+CONHECER cada história
+ESTAR presente nos processos
+RESPONDER pessoalmente
+DAR atenção REAL
+
+Com 50?
+
+Eu seria só mais uma mentora que some.
+
+E eu NÃO quero isso.
+
+Eu quero RELAÇÃO.
+
+Conhecer VOCÊ.
+
+Seus medos, sonhos, dores, vitórias.
+
+Isso não é possível com turmas grandes."
+
+[CTA - 7s]
+"São 12. Apenas.
+
+Restam [X] vagas.
+
+Você quer uma? 🧭
+
+Me chama no direct"
+
+ÁUDIO: Música íntima
+
+LEGENDA:
+"Carla, por que não abre mais vagas?"
+
+Porque EU QUERO ESTAR COM VOCÊS DE VERDADE.
+
+Com 12 vagas eu consigo:
+
+✅ CONHECER cada história profundamente
+✅ ESTAR presente nos processos
+✅ DAR atenção individual REAL
+✅ CRIAR relação verdadeira
+
+Com 50? Impossível.
+
+Prefiro 12 TRANSFORMADAS de verdade do que 50 "satisfeitas".
+
+**BÚSSOLA - Clube Anual**
+
+🧭 12 meses (jan-dez 2026)
+💜 24 encontros (2/mês)
+✨ 12 vagas apenas
+🎯 R$ 1.497 ou 12x R$ 154,82
+
+Restam [X] vagas.
+
+Me chama no direct se você quer uma! 💜🧭</div>
+            <div class="hashtags">#Apenas12Vagas #Bussola #QualidadeReal #ClubeAnual #TransformacaoIntegral</div>
+        </div>
+
+        <div class="post">
+            <div class="post-header">
+                <span class="date">28/12 - Sábado</span>
+                <span class="format">POST REFLEXÃO</span>
+            </div>
+            <div class="post-title">Tchau, Versão Antiga de Mim 👋💜</div>
+            <div class="post-content">Toda virada de ano a gente fala de "metas" e "resoluções".
+
+Mas antes disso... tem algo mais importante:
+
+**Que versão de você está ficando em 2025?**
+
+---
+
+Porque não adianta fazer uma lista linda de "quem eu quero ser em 2026" se você não se despede conscientemente de "quem você foi em 2025".
+
+E olha... não é sobre negar quem você foi.
+
+É sobre HONRAR e EVOLUIR.
+
+---
+
+**Eu vou me despedir da versão que:**
+
+💔 Tinha medo de decepcionar
+💔 Se calava pra não incomodar
+💔 Priorizava todo mundo menos ela mesma
+💔 Vivia buscando validação externa
+💔 Não confiava na própria intuição
+
+Essa versão fez o melhor que pôde.
+
+Mas agora? Eu tenho ferramentas novas.
+
+Consciência nova.
+
+Bússola ativada.
+
+---
+
+**E vou abraçar a versão que:**
+
+💜 Confia na própria voz
+💜 Estabelece limites sem culpa
+💜 Escolhe a si mesma
+💜 Vive com propósito
+💜 Caminha em comunidade
+
+---
+
+**E você?**
+
+Que versão de você está ficando em 2025?
+
+Escreve aqui embaixo. Mesmo que doa um pouco.
+
+"Tchau pra versão que..."
+
+Porque em 3 dias começa um novo ciclo.
+
+E a versão de você que vai atravessar 2026?
+
+Ela é mais forte.
+Mais alinhada.
+Mais consciente.
+Mais ELA MESMA.
+
+E isso não tem preço. 💜
+
+---
+
+Comenta: que versão de você fica em 2025? 👇</div>
+            <div class="hashtags">#Despedida2025 #NovaVersao #Transformacao #Evolucao #Reencontro</div>
+        </div>
+
+        <!-- ========================================
+             SEMANA 6: 29/12-02/01 - VIRADA + FECHAMENTO
+        ======================================== -->
+
+        <div class="week-divider">✨ SEMANA 6 (29/12-02/01): Virada Consciente + Início 2026</div>
+
+        <div class="whatsapp-section">
+            <h3>📱 MENSAGEM WHATSAPP DA SEMANA</h3>
+            <p><strong>Frequência:</strong> 1 mensagem (01/01)</p>
+            <p style="margin-top: 10px; line-height: 1.8;">
+FELIZ 2026, [nome]! 🎊
+
+Que esse ano seja de REENCONTRO.
+
+De PROPÓSITO.
+
+De TRANSFORMAÇÃO REAL.
+
+Se você quer começar esse ano com suporte de verdade...
+
+BÚSSOLA - Clube Anual
+
+Restam as ÚLTIMAS vagas.
+
+Link: https://pay.kiwify.com.br/7aq7Uku
+
+Me chama! 💜🧭
+
+Com todo amor,
+Carla
+            </p>
+        </div>
+
+        <div class="stories-section">
+            <h3>📸 STORIES INTERATIVOS DA SEMANA (4)</h3>
+            
+            <div class="story-item">
+                <strong>STORY 1 - Virada:</strong><br>
+                "FELIZ 2026! 🎊"<br>
+                "Que seja o ano do REENCONTRO 💜"<br>
+                [Mensagem linda]
+            </div>
+            
+            <div class="story-item">
+                <strong>STORY 2 - Palavra do Ano:</strong><br>
+                "Qual sua PALAVRA para 2026?"<br>
+                [Enquete com opções]
+            </div>
+            
+            <div class="story-item">
+                <strong>STORY 3 - Bússola:</strong><br>
+                "Você vai começar 2026:"<br>
+                "□ Sozinha"<br>
+                "□ Com suporte real"<br>
+                "Ainda dá tempo!"
+            </div>
+            
+            <div class="story-item">
+                <strong>STORY 4 - Gratidão:</strong><br>
+                "Obrigada por caminhar comigo em 2025!"<br>
+                "2026 vai ser INCRÍVEL! 💜"<br>
+                [Mensagem de gratidão]
+            </div>
+        </div>
+
+        <div class="post">
+            <div class="post-header">
+                <span class="date">29/12 - Domingo</span>
+                <span class="format">RITUAL DE VIRADA</span>
+            </div>
+            <div class="post-title">Ritual de Virada Consciente 2026 🕯️✨</div>
+            <div class="post-content">A maioria das pessoas vai entrar em 2026 no automático.
+
+Contagem regressiva, abraços, "ano novo vida nova"...
+
+E no dia 2 vão acordar exatamente as mesmas.
+
+---
+
+**Mas você pode escolher diferente.**
+
+Pode fazer uma VIRADA CONSCIENTE.
+
+---
+
+**RITUAL COMPLETO:**
+
+**PASSO 1: HONRE SEU 2025 (30min)**
+
+Pegue papel e caneta.
+
+Complete 10 vezes:
+"Obrigada, 2025, por me ensinar que..."
+
+Não force. Deixe fluir.
+
+Mesmo os aprendizados dolorosos merecem gratidão.
+
+---
+
+**PASSO 2: RECONHEÇA SUAS CONQUISTAS (20min)**
+
+Liste 20 conquistas de 2025.
+
+E não precisam ser "grandes":
+• Sobrevivi a dias difíceis
+• Aprendi a pedir ajuda
+• Coloquei um limite
+• Não desisti de mim
+
+CONTA. TUDO.
+
+---
+
+**PASSO 3: LIBERE O QUE FICOU PENDENTE (15min)**
+
+Outro papel:
+
+"Em 2025 eu não consegui..."
+"Em 2025 ficou pendente..."
+
+Depois, QUEIME ou RASQUE.
+
+Simbolicamente: você está liberando.
+
+---
+
+**PASSO 4: PERDÃO CONSCIENTE (20min)**
+
+Pra quem você precisa perdoar?
+(Incluindo VOCÊ MESMA)
+
+Escreva uma carta de perdão.
+
+Não precisa enviar.
+
+É pra você fazer as pazes internamente.
+
+---
+
+**PASSO 5: DEFINA SUA PALAVRA DE 2026 (15min)**
+
+Não "metas". Uma PALAVRA.
+
+Uma palavra que vai guiar TODAS suas escolhas.
+
+Ex: Coragem / Leveza / Reencontro / Propósito
+
+---
+
+**PASSO 6: ESTABELEÇA 3 INTENÇÕES (15min)**
+
+Não 20 metas.
+
+3 INTENÇÕES profundas:
+
+• Como eu quero ME SENTIR em 2026?
+• Que VERSÃO de mim quero ser?
+• O que quero CULTIVAR internamente?
+
+---
+
+**PASSO 7: RITUAL DE PASSAGEM (Na virada)**
+
+Antes da meia-noite:
+
+• Acenda uma vela
+• Coloque a mão no coração
+• Respire fundo 3 vezes
+• Diga em voz alta:
+
+"Eu honro quem fui em 2025.
+Eu agradeço tudo que vivi.
+Eu libero o que não serve mais.
+Eu estou pronta para o novo."
+
+Sopre a vela.
+
+---
+
+Faça esse ritual até dia 31.
+
+Você merece começar 2026 LIMPA. LEVE. ALINHADA.
+
+2025 foi intenso. Mas você chegou até aqui.
+
+E isso merece ser celebrado. 💜🕯️
+
+Você vai fazer? Comenta "EU VOU!" 👇</div>
+            <div class="hashtags">#RitualDeVirada #ViradaConsciente #2026 #NovoCiclo #Transformacao</div>
+        </div>
+
+        <div class="post reels">
+            <div class="post-header">
+                <span class="date">31/12 - Terça</span>
+                <span class="format reels-tag">REELS #10</span>
+            </div>
+            <div class="post-title">Você Não Está Sozinha 💜</div>
+            <div class="post-content">ROTEIRO REELS (35-40 segundos):
+
+[ABERTURA - 4s]
+Carla emocionada
+Texto: "Última mensagem de 2025"
+
+[MENSAGEM - 28s]
+Carla do coração:
+
+"Meu amor...
+
+Eu sei que você é forte.
+Eu sei que você aguenta.
+
+Mas...
+
+Aguentar não deveria ser
+seu único modo de existir.
+
+Você MERECE ter suporte.
+Você MERECE ter comunidade.
+Você MERECE não fazer tudo sozinha.
+
+Em 2026...
+
+Que você se permita SER APOIADA.
+
+Força não é fazer tudo sozinha.
+
+Força é saber pedir ajuda."
+
+[FECHAMENTO - 6s]
+"Obrigada por 2025.
+
+Nos vemos em 2026.
+
+Com a bússola ligada
+e o coração aberto. 💜🧭"
+
+[CTA - 2s]
+"Feliz 2026!"
+
+ÁUDIO: Música emocionante
+
+LEGENDA:
+Não consigo terminar 2025 sem te dizer:
+
+Você não precisa fazer sozinha.
+
+Eu SEI que você é forte.
+
+Mas força não é sobre fazer tudo sozinha.
+
+É sobre aceitar suporte.
+
+É sobre permitir ser acompanhada.
+
+Em 2026, eu quero estar com você.
+
+Seja através dos conteúdos aqui...
+
+Ou através da Bússola (se você sentir que é pra você).
+
+Mas de alguma forma... eu quero que você saiba:
+
+Você NÃO está sozinha.
+
+Feliz 2026! 💜🧭
+
+Comenta "FELIZ 2026" aqui! 👇</div>
+            <div class="hashtags">#FelizAnoNovo #2026 #VocêNãoEstáSozinha #NovoCiclo #Gratidao</div>
+        </div>
+
+        <div class="post especial">
+            <div class="post-header">
+                <span class="date">01/01 - Quarta</span>
+                <span class="format">ANO NOVO ESPECIAL</span>
+            </div>
+            <div class="post-title">BEM-VINDA A 2026! O Que Você Vai Escolher Ser? ✨🎊</div>
+            <div class="post-content">BOM DIA, 2026! 🎊
+
+E bom dia pra VOCÊ que escolheu começar esse ano CONSCIENTEMENTE.
+
+---
+
+Hoje é dia 1.
+
+E você não precisa ter tudo resolvido.
+
+Não precisa ter todas as respostas.
+
+Você só precisa estar ALINHADA com quem você escolheu ser.
+
+---
+
+**Hoje, EU ESCOLHO SER:**
+
+💜 A mulher que confia na própria voz
+💜 A mulher que estabelece limites sem culpa
+💜 A mulher que prioriza a si mesma sem egoísmo
+💜 A mulher que vive com propósito, não com pressão
+💜 A mulher que caminha em comunidade, não em isolamento
+
+---
+
+**E VOCÊ?**
+
+Quem você escolhe ser em 2026?
+
+Não quem você "deveria" ser.
+
+Mas quem você QUER ser.
+
+Quem seu coração pede pra você se tornar.
+
+---
+
+2026 não vai ser perfeito.
+
+Vai ter desafios. Vai ter dias difíceis. Vai ter momentos de dúvida.
+
+Mas a diferença é que AGORA você tem:
+
+🧭 Sua bússola interior ativada
+💜 Suas intenções claras
+✨ Consciência sobre quem você é
+🙏 Conexão com Deus
+
+E isso muda TUDO.
+
+---
+
+Que 2026 seja o ano do seu REENCONTRO.
+
+Não com uma versão perfeita de você.
+
+Mas com a versão VERDADEIRA.
+
+Bem-vinda a 2026, meu amor. 💜✨
+
+Vamos juntas? Comenta "VAMOS!" 👇</div>
+            <div class="hashtags">#FelizAnoNovo #BemVinda2026 #PrimeiroDia #NovoCiclo #Reencontro #VidaComProposito</div>
+        </div>
+
+        <div class="post">
+            <div class="post-header">
+                <span class="date">02/01 - Quinta</span>
+                <span class="format">FECHAMENTO</span>
+            </div>
+            <div class="post-title">Sua Bússola Está Ligada. E Agora? 🧭💜</div>
+            <div class="post-content">2026 começou.
+
+E se você fez o trabalho que propus nas últimas semanas...
+
+Você deve estar sentindo algo diferente agora.
+
+Não necessariamente "empolgação".
+
+Talvez seja mais uma sensação de... CLAREZA.
+
+De alinhamento.
+
+De "eu sei quem eu sou e pra onde eu vou".
+
+---
+
+**E é EXATAMENTE assim que deveria ser.**
+
+Porque bússola interior não te dá um mapa detalhado do futuro.
+
+Ela te dá DIREÇÃO.
+
+Ela te mostra o NORTE VERDADEIRO.
+
+---
+
+**Agora, o desafio real começa:**
+
+MANTER essa bússola ligada no meio do caos do dia a dia.
+
+Porque é fácil estar alinhada na virada de ano.
+
+Mas e quando a vida apertar?
+
+É aí que você vai precisar VOLTAR pra sua bússola.
+
+De novo. E de novo. E de novo.
+
+---
+
+**Não é sobre nunca se perder.**
+
+**É sobre sempre saber VOLTAR.**
+
+---
+
+Então aqui vai meu convite pra 2026:
+
+Toda vez que você se sentir perdida...
+
+Para. Respira. Mão no coração.
+
+Pergunta:
+
+"O que minha bússola está me dizendo agora?"
+
+E ESCUTA.
+
+---
+
+2026 vai te desafiar. Isso é certo.
+
+Mas você não vai atravessar esse ano sozinha.
+
+Eu vou estar aqui.
+
+Sua bússola vai estar aqui.
+
+E a versão de você que se comprometeu com o reencontro? Ela também.
+
+---
+
+**Um dia de cada vez.**
+
+**Uma escolha de cada vez.**
+
+**Uma volta pra casa de cada vez.**
+
+Bem-vinda ao resto da sua vida, meu amor.
+
+Vamos fazer valer. 💜🧭
+
+---
+
+E se você quer fazer essa jornada COM SUPORTE REAL durante 12 meses...
+
+As últimas vagas da Bússola ainda estão abertas.
+
+Me chama no direct.
+
+Porque quando fechar... não tem volta.
+
+---
+
+Comenta "VAMOS JUNTAS" se você tá comigo em 2026! 👇💜</div>
+            <div class="hashtags">#2026 #BussolaLigada #Reencontro #VidaComProposito #JornadaContinua #VamosJuntas</div>
+        </div>
+
+    </div>
+</body>
+</html>
